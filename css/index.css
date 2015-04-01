@@ -1,0 +1,57 @@
+.top-content{
+	text-align: justify;
+	padding: 20px;
+	margin: 20px;
+	background-color: white;
+}
+.top-content h1{
+	font-size: 20px;
+}
+.top-content p{
+	font-size: 14px;
+}
+
+.right-content{
+	width: 550px;
+	float: right;
+	padding: 20px;
+	margin: 20px;
+	background-color: white;
+}
+.right-content h1{
+	font-size: 20px;
+}
+.right-content p{
+	font-size: 14px;
+}
+.right-content ul{
+	font-size: 14px;
+}
+.right-content a{
+	text-decoration: none;
+}
+.right-content h1 a{
+	color: black;
+}
+aside{
+	width: 250px;
+	float: left;
+	padding: 20px;
+	margin: 20px 20px 100px 20px;
+	background-color: white;
+}
+aside h2{
+	font-size: 20px;
+}
+aside h3{
+	margin: 5px;
+	font-size: 16px;
+}
+aside p{
+	margin: 0;
+	font-size: 14px;
+}
+aside a{
+	text-decoration: none;
+	color: black;
+}

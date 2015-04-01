@@ -1,0 +1,25 @@
+#img-header{
+	width: 960px;
+	height: 200px;
+}
+#project-preview{
+	width: 200px;
+	height: 200px;
+}
+.content-inleiding{
+	padding: 20px;
+	margin: 20px 0 20px 0;
+	background-color: white;
+}
+.content-all{
+	padding: 20px;
+	margin: 20px 0 20px 0;
+	background-color: white;
+}
+div[role="main"] p{
+	font-size: 14px;
+}
+.content-all img{
+	float: right;
+	margin: 0 0 20px 20px;
+}

@@ -1,0 +1,37 @@
+#pasfoto{
+	float: right;
+	margin: 0 0 20px 20px;
+	height: 200px;
+	width: 150px;
+}
+.content-div{
+	padding: 20px;
+	margin: 20px;
+	background-color: white;
+}
+div[role="main"] h2{
+	font-size: 20px;
+}
+div[role="main"] p{
+	font-size: 14px;
+}
+.follow-buttons{
+	height: 50px;
+	width: 900px;
+	margin-bottom: 70px;
+	margin-left: 100px;
+}
+.follow-buttons a{
+	display: inline;
+	color: #0664ff;
+	font-family: verdana;
+	text-decoration: none;
+}
+.follow-buttons p{
+	display: inline;
+	padding: 20px;
+}
+.follow-buttons img{
+	width: 50px;
+	height: 50px;
+}

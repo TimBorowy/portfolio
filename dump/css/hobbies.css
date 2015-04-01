@@ -1,0 +1,19 @@
+div[role="main"] {
+	background-color: white;
+}
+.hobby-thumb{
+	float: left;
+	margin: 30px;
+	width: 165px;
+	height: 150px;
+}
+.next-row{
+	clear: left;
+}
+div[role="main"] p{
+	padding-top: 30px;
+	font-size: 14px;
+	padding-bottom: 100px;
+	margin-left: 250px;
+	margin-right: 100px;
+}

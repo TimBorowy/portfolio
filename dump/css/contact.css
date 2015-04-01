@@ -1,0 +1,53 @@
+.onze-data{
+	width: 400px;
+	background-color: #0664ff;
+	float: left;
+	text-align: center;
+	color: white;
+}
+.onze-data h2{
+	padding: 0;
+	margin: 0;
+}
+.onze-data p{
+	margin: 25px;
+}
+.content-header{
+	background-color: #0550cc;
+	display: inline-block;
+	padding: 20px;
+	margin:20px;
+	border-radius: 10px;
+}
+.gebruiker-data{
+	width: 400px;
+	background-color: #0664ff;
+	float: right;
+	text-align: center;
+	color: white;
+	margin-bottom: 100px;
+}
+form div{
+	margin: 15px
+}
+form input{
+	width: 350px;
+	height: 30px;
+	color: white;
+	background-color: #0550cc;
+	font-family: verdana;
+	font-size: 18px;
+	border: 0px;
+}
+form textarea{
+	width: 350px;
+	height: 200px;
+	color: white;
+	background-color: #0550cc;
+	font-family: verdana;
+	font-size: 18px;
+	border: 0px;
+}
+::-webkit-input-placeholder{
+    color: white;
+}

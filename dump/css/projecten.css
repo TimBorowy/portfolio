@@ -1,0 +1,38 @@
+div[role="main"]{
+	width: 1020px;
+}
+.outer-field{
+	width: 200px;
+	height: 200px;
+	background-image: url("project-preview.png");
+	margin: 70px;
+	display: inline-block;
+	float: left;
+}
+#next-row{
+	clear: left;
+}
+.inner-field{
+	width: 200px;
+	height: 170px;
+	margin: 0;
+	background-color: rgba(179, 191, 255, 0.4);
+	position: relative;
+	top: 30px;
+	display: none;
+	color: white;
+}
+.inner-field h2{
+	font-size: 16px;
+	margin: 0 10px 10px 10px;
+	padding-top: 10px;
+}
+.inner-field p{
+	font-size: 14px;
+	margin: 0;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.outer-field:hover .inner-field{
+	display: block;
+}

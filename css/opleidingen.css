@@ -1,0 +1,53 @@
+.opleidingen-tabel{
+    width: 960px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    background-color: #ffffff;
+    padding: 20px;
+    font-size: 14px;
+    font-family: verdana;
+}
+.opleidingen-tabel p {
+    font-size: 20px;
+    left: 50px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: verdana;
+}
+
+table {
+    width: 900px;
+    height: 200px;
+    text-align: center;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    white-space: nowrap;
+    font-family: verdana;
+}
+table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 5px;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #fff;
+}
+
+table tr:nth-child(odd) {
+    background-color:#D1D1D1;
+}
+
+table tr td:nth-child(1){
+    width: 250px;
+}

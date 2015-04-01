@@ -1,0 +1,18 @@
+#pasfoto{
+	float: left;
+	margin: 5px 20px 10px 0;
+	width: 250px;
+	height: 250px;
+}
+.content-all{
+	padding: 20px;
+	margin: 20px;
+	background-color: white;
+}
+.content-all h2{
+	font-size: 20px;
+	margin: 0;
+}
+.content-all p{
+	font-size: 14px;
+}

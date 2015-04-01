@@ -1,0 +1,167 @@
+/*
+last edited: 03-02-2015
+by: Tim
+
+color scheme:
+
+header/footer
+	\\blue = #2350B8
+header-hover
+	\\light-blue = #295ED9
+main
+	\\white = #EDEDED
+title-header
+	\\light-orange = #F27405
+
+
+dark-orange = #F25C05
+gray = #586B73
+*/
+
+body {
+	/*min-width: 1440px;*/
+	background-color: #EDEDED;
+	margin: 0;
+}
+header nav {
+	position: fixed;
+	background-color: #2350B8;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	min-width: 1440px;
+	top: 0;
+}
+header img {
+	margin-top: 5px;
+	height: 40px;
+}
+#header-foto{
+	width: 400px;
+	height: 40px;
+	margin-left: 20px;
+}
+header li {
+	list-style-type: none;
+}
+header ul:nth-child(2) {
+	display: inline-block;
+}
+header ul:nth-child(2) li {
+	float: left;
+	background-color: #2350B8;
+}
+header ul:nth-child(2) a{
+	display: block;
+	width: 150px;
+	height: 50px;
+	text-decoration: none;
+	color: white;
+	line-height: 50px;
+	font-family: verdana;
+}
+@media screen and (max-width: 1600px) {
+	header ul:nth-child(2) a {
+		width: 120px;
+	}
+}
+/*
+@media screen and (max-width: 1450px) {
+	header ul:nth-child(2) a {
+		width: 110px;
+	}
+}
+*/
+header ul:nth-child(2) a:hover{
+	background-color: #295ED9;
+	transition: background-color 0.2s ease;
+}
+header ul:nth-child(2) li:hover #second-ul {
+	display: block;
+}
+header ul:nth-child(2) ul {
+	display: none;
+}
+header ul:nth-child(2) ul li{
+	float: none;
+}
+header ul:first-child {
+	position: relative;
+	float: left;
+	display: inline-block;
+}
+header ul:nth-child(3){
+	display: inline-block;
+	position: relative;
+	float: right;
+	top: 0;
+}
+header ul:nth-child(3) li{
+	display: inline;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+header ul{
+	margin: 0;
+	padding: 0;
+}
+.title-header{
+	width: 100%;
+	height: 50px;
+	background-color: #F27405;
+    position: fixed;
+    top: 50px;
+}
+.title-header h1{
+	font-size: 40px;
+	font-family: verdana;
+	color: white;
+	line-height: 50px;
+	margin:0;
+    position: fixed;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%)
+}
+/*content*/
+footer nav{
+	width: 100%;
+	height: 40px;
+	position: fixed;
+	bottom: 0;
+	background-color: #2350B8;
+}
+footer ul{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+footer li{
+	display: inline;
+	margin: 20px;
+	line-height: 40px;
+}
+footer a{
+	text-decoration: none;
+	color: white;
+	font-family: verdana;
+	font-size: 14px;
+}
+footer a:hover{
+	color: #F27405;
+}
+/*Page CSS*/
+
+div[role="main"] {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    font-family: verdana;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

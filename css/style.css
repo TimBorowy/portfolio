@@ -1,0 +1,483 @@
+/*
+last edited: 03-02-2015
+by: Tim
+
+color scheme:
+
+header/footer
+	\\blue = #2350B8
+header-hover
+	\\light-blue = #295ED9
+main
+	\\white = #EDEDED
+title-header
+	\\light-orange = #F27405
+
+
+dark-orange = #F25C05
+gray = #586B73
+*/
+
+body {
+	min-width: 1300px;
+	background-color: #EDEDED;
+	margin: 0;
+}
+header nav {
+	position: fixed;
+	background-color: #2350B8;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	min-width: 1300px;
+	top: 0;
+}
+header img {
+	margin-top: 5px;
+	height: 40px;
+}
+#header-foto{
+	width: 400px;
+	height: 40px;
+	margin-left: 20px;
+}
+header li {
+	list-style-type: none;
+}
+header ul:nth-child(2) {
+	display: inline-block;
+    float: left;
+}
+header ul:nth-child(2) li {
+	float: left;
+	background-color: #2350B8;
+}
+header ul:nth-child(2) a{
+	display: block;
+	width: 100px;
+	height: 50px;
+	text-decoration: none;
+	color: white;
+	line-height: 50px;
+	font-family: verdana;
+    /*edited*/
+    padding: 0 10px 0 10px;
+}
+@media screen and (max-width: 1600px) {
+	header ul:nth-child(2) a {
+		width: 90px;
+	}
+}
+/*
+@media screen and (max-width: 1450px) {
+	header ul:nth-child(2) a {
+		width: 110px;
+	}
+}
+*/
+header ul:nth-child(2) a:hover{
+	background-color: #295ED9;
+	transition: background-color 0.2s ease;
+}
+header ul:nth-child(2) li:hover #second-ul {
+	display: block;
+    }
+header ul:nth-child(2) ul {
+	display: none;
+}
+header ul:nth-child(2) ul li{
+	float: none;
+}
+header ul:first-child {
+	position: relative;
+	float: left;
+	display: inline-block;
+}
+header ul:nth-child(3){
+	display: inline-block;
+	//position: relative;
+    position: absolute;
+	//float: right;
+    right: 0;
+	top: 0;
+}
+header ul:nth-child(3) li{
+	display: inline;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+header ul{
+	margin: 0;
+	padding: 0;
+}
+.title-header{
+	width: 100%;
+	height: 30px;
+	background-color: #F27405;
+    position: fixed;
+    top: 50px;
+    box-shadow: 5px 5px 15px #888888;
+}
+.title-header h1{
+	font-size: 20px;
+	font-family: verdana;
+	color: white;
+	line-height: 30px;
+	margin:0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+/*content*/
+.message{
+    width: 900px;
+    height: 40px;
+    bottom: 40px;
+    position: relative;
+    text-align: center;
+    background-color: #3ADF00;
+    line-height: 40px;
+    border: 3px solid #31B404;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 50px;
+}
+.message h2{
+    display: inline;
+    font-family: verdana;
+    font-weight: normal;
+    color: #ffffff;
+}
+.message button{
+    border-radius: 20px;
+    font-family: Verdana;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px 9px 5px 9px;
+    background-color: #3ADF00;
+    border: 3px solid #31B404;
+    margin: 3px;
+}
+.message button:hover{
+    background-color: #31B404;
+}
+.close{
+    float: right;
+}
+footer nav{
+	width: 100%;
+	height: 40px;
+	position: fixed;
+	bottom: 0;
+	background-color: #2350B8;
+}
+footer ul{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+footer li{
+	display: inline;
+	margin: 20px;
+	line-height: 40px;
+}
+footer a{
+	text-decoration: none;
+	color: white;
+	font-family: verdana;
+	font-size: 14px;
+}
+footer a:hover{
+	color: #F27405;
+}
+/*Page CSS*/
+
+div[role="main"] {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    font-family: verdana;
+}
+.admin_nav{
+    padding: 0;
+}
+.admin_nav li{
+    display: inline;
+}
+.admin_nav li a:hover{
+    color: blue;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    font-size: 20px;
+}
+h2{
+    font-size: 18px;
+}
+h3{
+    font-size: 16px;
+}
+p{
+    font-size: 14px;
+}
+/*voorpagina*/
+.top-content{
+    text-align: justify;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 15px #888888;
+}
+.right-content{
+    width: 550px;
+    float: right;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 15px #888888;
+}
+aside{
+    width: 250px;
+    float: left;
+    padding: 20px;
+    margin: 20px 20px 100px 20px;
+    background-color: white;
+    box-shadow: 5px 5px 15px #888888;
+}
+/*about*/
+.content-div{
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 15px #888888;
+}
+#pasfoto{
+    float: right;
+    margin: 0 0 20px 20px;
+    height: 200px;
+    width: 150px;
+}
+.follow-buttons{
+    height: 50px;
+    width: 900px;
+    margin-bottom: 70px;
+    margin-left: 100px;
+}
+.follow-buttons a{
+    color: #0664ff;
+}
+.follow-buttons p{
+    display: inline;
+    padding: 20px;
+}
+.follow-buttons img{
+    width: 50px;
+    height: 50px;
+}
+/*contact*/
+.onze-data, .gebruiker-data{
+    width: 400px;
+    background-color: #0664ff;
+    text-align: center;
+    color: white;
+}
+.onze-data{
+    float: left;
+}
+.onze-data p{
+    margin: 25px;
+    font-size: 16px;
+}
+.content-header{
+    background-color: #0550cc;
+    display: inline-block;
+    padding: 20px;
+    margin:20px;
+    border-radius: 10px;
+    font-size: 24px;
+}
+.gebruiker-data{
+    float: right;
+    margin-bottom: 100px;
+}
+form div{
+    margin: 15px
+}/*
+form input, textarea{
+    width: 350px;
+    height: 30px;
+    color: white;
+    background-color: #0550cc;
+    font-family: verdana;
+    font-size: 18px;
+    border: 0px;
+}
+::-webkit-input-placeholder{
+    //color: white;
+}
+/*blog*/
+.blog-rest {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    font-family: verdana, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px #888888;
+}
+.divComments{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    font-family: verdana, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px #888888;
+}
+.addReaguursel{
+    margin: 15px 0px 15px 0px;
+}
+.divReactie{
+    margin: 15px 0px 15px 0px;
+}
+#reaguurdert{
+    color: blue;
+    font-size: 16px;
+}
+#reaguursel_datum{
+    color: gray;
+    font-size: 12px;
+}
+.divReactie p{
+    margin: 0;
+    padding: 0;
+}
+.addReaguursel .text-input-comment , .submit{
+    display: block;
+    margin: 15px 0px 15px 0px;
+}
+.addReaguursel .text-input-comment{
+    width: 400px;
+    height: 50px;
+}
+#blog-paragliden{
+    margin: 10px;
+    width: 250px;
+    height: 200px;
+}
+/*achtergrond*/
+#code{
+    float: left;
+    margin: 5px 20px 10px 0;
+    width: 250px;
+    height: 250px;
+}
+.content-all h2{
+    margin: 0;
+}
+/*hobbies*/
+.hobby-thumb{
+    float: left;
+    margin: 0 20px 20px 0px;
+    width: 165px;
+    height: 150px;
+}
+/*opleidingen*/
+table{
+    font-size: 14px;
+    border-collapse: collapse;
+}
+.table_opleidingen{
+    width: 750px;
+}
+table td{
+    padding: 15px;
+}
+table tr:nth-child(even){
+    background-color: #EDEDED;
+    border-bottom: 2px solid rgba(190, 190, 190, 1);
+}
+table tr:nth-child(odd){
+    background-color:#D1D1D1;
+    border-bottom: 2px solid rgba(190, 190, 190, 1);
+}
+.table_opleidingen tr td:nth-child(1){
+    width: 200px;
+}
+/*gebruiker
+.input-gray .title-input, .text-input*/
+.input-gray input, textarea {
+    border: 2px solid #cccccc;
+    padding: 5px;
+    //margin: 10px;
+    //background-color: white;
+    font-family: verdana;
+    font-size: 18px;
+    color: black;
+}
+::-webkit-input-placeholder{
+    //color: white;
+}
+fieldset{
+    display: inline;
+    border: 3px solid #cccccc;
+}
+.table_gebruikers tr th{
+    text-align: left;
+    padding: 10px;
+}
+.table_gebruikers tr td{
+    padding: 10px;
+}
+.edit{
+    color: blue
+}
+.delete{
+    color: red;
+}
+.title-input {
+    width: 400px;
+    height: 30px;
+}
+textarea.text-input {
+    width: 800px;
+    height: 400px;
+}
+.submit{
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+    //margin: 10px;
+    border: none;
+    font-size: 18px;
+    //color: white;
+}
+/*login*/
+.login{
+    width: 250px;
+    height: 40px;
+    color: white;
+    border: 0px;
+    text-align: center;
+}
+.login-submit, #signup-button{
+    width: 150px;
+    height: 45px;
+    padding: 5px;
+
+    background-color: #cccccc;
+}
+/*sign-up*/

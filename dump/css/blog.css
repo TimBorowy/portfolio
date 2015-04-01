@@ -1,0 +1,71 @@
+.blog-first {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    font-family: verdana, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.blog-first ul {
+     padding-left: 15px;
+}
+
+.blog-rest {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    font-family: verdana, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+}
+#blog-paragliden{
+    margin: 10px;
+    width: 250px;
+    height: 200px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+table {
+    position: fixed;
+    right: 10px;
+    top: 150px;
+    background: #ffffff;
+    text-align: center;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: verdana;
+    border: 1px solid black;
+    white-space: nowrap;
+
+}
+
+table th,td {
+    height: 30px;
+    width: 40px;
+    font-size: 9px;
+    padding-left: 4px;
+    padding-right: 4px;
+    table-layout: fixed;
+    border: 1px solid #000000;
+}
+
+.tekst p{
+    position: fixed;
+    text-align: center;
+    right: 70px;
+    top: 110px;
+    font-size: 14px;
+    font-family: verdana;
+
+}
