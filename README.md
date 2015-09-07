@@ -10,7 +10,6 @@ het moet niet mogelijk zijn om:
 <li>Als bezoeker en als gebruiker met een role die gelijk is aan 0, bij admin-... pagina's te komen.</li>
 <li>Als bezoeker comments te plaatsen bij blogs en projecten</li>
 <li>Verandering in de DB te maken als bezoeker</li>
-<li></li>
 </ul>
 
 Het is mogelijk om test gegevens te versturen om je te registreren zoals Email: yolo@mcswagg.er omdat die nog niet worden gechecked.
